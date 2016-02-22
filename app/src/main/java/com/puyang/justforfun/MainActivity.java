@@ -32,11 +32,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        for (String s : Arrays.asList("a", "b", "c")) {
-            
-        }
         Log.i("info", "onCreate");
-        new AlertDialog.Builder(this).setSingleChoiceItems(new String[]{"1", "2", "3"}, 0, new DialogInterface.OnClickListener() {
+        /*new AlertDialog.Builder(this).setSingleChoiceItems(new String[]{"1", "2", "3"}, 0, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
@@ -56,7 +53,7 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             }
-        });
+        });*/
     }
 
 
