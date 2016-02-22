@@ -5,8 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name">
         <activity
             android:name="com.puyang.justforfun.MainActivity"
             android:screenOrientation="sensor"
@@ -17,6 +16,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.puyang.justforfun.AnimationActivity"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name="com.puyang.justforfun.OrigamiAnimationActivity"
+            android:screenOrientation="sensor"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+
         </activity>
     </application>
 

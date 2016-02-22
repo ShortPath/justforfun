@@ -16,9 +16,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 interface Ladao{
-    default String displayFeature(){
-        return "ladaoba";
-    }
+    public String displayFeature();
 }
 
 class LadaoClass implements Ladao{
