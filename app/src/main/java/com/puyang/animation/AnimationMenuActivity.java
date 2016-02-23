@@ -44,7 +44,9 @@ public class AnimationMenuActivity extends Activity {
                     case 4:
                         animationIntent.putExtra("value", "incrementingloading");
                         break;
-
+                    case 5:
+                        animationIntent.putExtra("value", "imageflow");
+                        break;
                     default:
                         break;
                 }

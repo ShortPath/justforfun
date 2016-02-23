@@ -1,0 +1,57 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="2244px"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/flow_imageview_dark"
+            android:layout_marginRight="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="216px"
+            android:src="@drawable/splash_dark_line"/>
+        <ImageView
+            android:id="@+id/flow_imageview_dark2"
+            android:layout_marginLeft="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="216px"
+            android:src="@drawable/splash_dark_line"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/flow_imageview_light"
+            android:layout_marginRight="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="174px"
+            android:src="@drawable/splash_light_line"/>
+        <ImageView
+            android:id="@+id/flow_imageview_light2"
+            android:layout_marginLeft="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="174px"
+            android:src="@drawable/splash_light_line"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/flow_imageview_shadow"
+            android:layout_marginRight="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="216px"
+            android:src="@drawable/splash_shadow"/>
+        <ImageView
+            android:id="@+id/flow_imageview_shadow2"
+            android:layout_marginLeft="-2244px"
+            android:layout_width="2244px"
+            android:layout_height="216px"
+            android:src="@drawable/splash_shadow"/>
+    </FrameLayout>
+</merge>
