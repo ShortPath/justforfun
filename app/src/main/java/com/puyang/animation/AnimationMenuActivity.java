@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.puyang.justforfun.R;
+import com.puyang.R;
 
 /**
  * Created by yangpu on 2/22/16.

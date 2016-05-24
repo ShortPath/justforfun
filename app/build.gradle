@@ -25,4 +25,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.+'
     compile 'com.facebook.rebound:rebound:0.3.8'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile project(':pull-to-refresh-library')
+    compile project(':pullToRefreshListFragment')
+    compile project(':pullToRefreshViewPager')
 }

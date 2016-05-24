@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.puyang.justforfun.R;
+import com.puyang.R;
 
 public class AnimationListAdapter extends BaseAdapter{
     LayoutInflater inflater;

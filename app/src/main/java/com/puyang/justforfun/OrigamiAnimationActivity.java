@@ -5,6 +5,7 @@ import android.app.Notification;
 import android.os.Bundle;
 
 import com.facebook.rebound.ui.SpringConfiguratorView;
+import com.puyang.R;
 
 /**
  * Created by yangpu on 1/12/16.
