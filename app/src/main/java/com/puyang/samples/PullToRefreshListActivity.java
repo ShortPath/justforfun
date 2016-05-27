@@ -97,15 +97,18 @@ public final class PullToRefreshListActivity extends ListActivity {
 		/**
 		 * Add Sound Event Listener
 		 */
-		SoundPullEventListener<ListView> soundListener = new SoundPullEventListener<ListView>(this);
+		/*SoundPullEventListener<ListView> soundListener = new SoundPullEventListener<ListView>(this);
 		soundListener.addSoundEvent(State.PULL_TO_REFRESH, R.raw.pull_event);
 		soundListener.addSoundEvent(State.RESET, R.raw.reset_sound);
 		soundListener.addSoundEvent(State.REFRESHING, R.raw.refreshing_sound);
-		mPullRefreshListView.setOnPullEventListener(soundListener);
+		mPullRefreshListView.setOnPullEventListener(soundListener);*/
 
 		// You can also just use setListAdapter(mAdapter) or
 		// mPullRefreshListView.setAdapter(mAdapter)
 		actualListView.setAdapter(mAdapter);
+
+        /*mPullRefreshListView.setRefreshing(true);
+        new GetDataTask().execute();*/
 	}
 
 	private class GetDataTask extends AsyncTask<Void, Void, String[]> {
