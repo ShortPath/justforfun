@@ -16,6 +16,17 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="LightAppTheme" parent="AppTheme">
+        <item name="root_view_bg">@drawable/bg_day</item>
+        <item name="btn_bg">@android:color/white</item>
+        <item name="text_color">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="AppTheme">
+        <item name="root_view_bg">@drawable/bg_night</item>
+        <item name="btn_bg">@android:color/black</item>
+        <item name="text_color">@android:color/holo_red_dark</item>
+    </style>
 
     <style name="HorizScrollViewItem">
         <item name="android:paddingRight">50dp</item>
