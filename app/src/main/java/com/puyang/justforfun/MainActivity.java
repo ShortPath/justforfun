@@ -2,8 +2,10 @@ package com.puyang.justforfun;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,8 +23,9 @@ import com.puyang.R;
 import com.puyang.animation.AllAnimation;
 import com.puyang.colorful.Colorful;
 import com.puyang.colorful.ViewGroupSetter;
+import com.puyang.receivers.UserDefinedReceiver;
 
-public class MainActivity extends Activity{
+public class MainActivity extends Activity implements View.OnClickListener{
 
     private int symbol = 0;
     /*@Override
@@ -60,12 +63,30 @@ public class MainActivity extends Activity{
     Colorful mColorful;
     boolean isNight = false;
 
+    public static final String TAG_RECEIVER = "android.com.user.defined.receiver";
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(TAG_RECEIVER);
+        sendBroadcast(intent);
+        localBroadcastManager.sendBroadcast(intent);
+    }
+
+    LocalBroadcastManager localBroadcastManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_colorful);
+        setContentView(R.layout.activity_main);
 
-        // 换肤事件
+        //local broadcast mechanism
+        localBroadcastManager = LocalBroadcastManager.getInstance(this);
+
+        IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(TAG_RECEIVER);
+
+        localBroadcastManager.registerReceiver(new UserDefinedReceiver(), intentFilter);
+        /*// 换肤事件
         findViewById(R.id.change_btn).setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -91,7 +112,7 @@ public class MainActivity extends Activity{
         mNewsListView.setAdapter(new NewsAdapter());
 
         // 初始化Colorful
-        setupColorful();
+        setupColorful();*/
     }
 
     /**

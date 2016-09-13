@@ -1,4 +1,4 @@
-include ':app'
+include ':app', ':dateLibrary'
 include ':pull-to-refresh-library'
 include ':pullToRefreshListFragment'
 include ':pullToRefreshViewPager'

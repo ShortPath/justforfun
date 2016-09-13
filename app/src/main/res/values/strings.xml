@@ -15,4 +15,26 @@
     <string name="hello">Hello World, PullToRefreshActivity!</string>
     <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin mauris varius lacus porttitor eget blandit massa facilisis. Nulla pellentesque odio sed purus fermentum vitae viverra orci faucibus. Sed ullamcorper condimentum vulputate. Curabitur sit amet convallis velit. Vestibulum posuere eleifend risus ac adipiscing. Nam pulvinar nulla a velit faucibus imperdiet. Praesent eget nisi ac justo blandit sagittis. Maecenas at leo nisi, nec varius nisl.\nIn hac habitasse platea dictumst. Morbi neque tortor, vestibulum sed viverra a, luctus vel lorem. Nunc turpis eros, varius eget commodo et, euismod at eros. Sed tincidunt mi purus, vel posuere dui. Vestibulum ante lectus, porta sed mattis bibendum, scelerisque cursus sapien. Cras ultrices imperdiet fermentum. Aenean nisi nulla, euismod non blandit ac, dictum quis libero. Morbi consectetur tempor mollis. Suspendisse eget nunc arcu, vel ullamcorper augue. Integer malesuada, diam nec faucibus mollis, nisl velit euismod enim, ac mattis justo neque sit amet mauris. Vivamus pretium imperdiet pharetra.\nInteger sagittis augue sit amet lectus pulvinar sit amet commodo tortor mattis. Maecenas quis tellus eget ante eleifend sollicitudin non et nibh. Maecenas luctus euismod tristique. Fusce in odio nec diam blandit facilisis. Sed nec arcu eros. Vivamus quis tortor a metus tempus aliquam eget volutpat magna. Pellentesque id ultrices dolor. Sed blandit aliquet quam. Phasellus dapibus euismod vulputate. Aenean blandit, elit vitae vestibulum tincidunt, metus dui accumsan nulla, sit amet vehicula mauris lacus in est. Etiam dignissim pellentesque nulla vel malesuada. Cras vel lorem justo.\nSed condimentum nisl sit amet libero vestibulum hendrerit. Duis auctor tempus placerat. Proin velit ante, ornare nec dictum nec, hendrerit eu arcu. Etiam ut diam ornare quam venenatis pulvinar vitae vel leo. Vivamus consectetur, ante id interdum rhoncus, magna eros pulvinar lacus, a gravida nibh arcu vitae eros. Nulla scelerisque laoreet feugiat. Mauris sit amet gravida felis.\nNulla ac dolor sapien, vestibulum venenatis justo. Cras placerat velit vitae nibh pellentesque ultricies. Suspendisse adipiscing enim eu justo iaculis eu pretium urna fermentum. Duis porttitor nunc non nunc mattis vestibulum. Etiam elit tellus, feugiat in bibendum eget, adipiscing nec metus. Ut ut sem lacus, quis faucibus diam. Curabitur a nulla fermentum tortor dignissim posuere. Fusce faucibus ante ut sem imperdiet imperdiet eget vitae lorem. Etiam fringilla ornare ipsum, in sagittis quam ornare vitae. Nullam venenatis orci sit amet sapien adipiscing gravida. Proin turpis lectus, hendrerit vitae vehicula ut, auctor ac lectus. Pellentesque sollicitudin blandit ligula quis commodo. Mauris vulputate lectus in velit luctus aliquam. Quisque eget tincidunt elit. Quisque et augue quam, sed scelerisque eros.</string>
 
+    <string name="title_activity_main">DateTimePicker Example</string>
+    <string name="selected_time">The time you picked will be shown here.</string>
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="mode_24_hours">Use 24 hour mode</string>
+    <string name="mode_dark_time">Use dark theme</string>
+    <string name="mode_dark_date">Use dark theme</string>
+    <string name="mode_custom_accent">Use custom accent</string>
+    <string name="vibrate_time">Vibrate on touch</string>
+    <string name="vibrate_date">Vibrate on touch</string>
+    <string name="dismiss_time">Dismiss on pause (eg: orientation change)</string>
+    <string name="dismiss_date">Dismiss on pause (eg: orientation change)</string>
+    <string name="title_time">Show a title</string>
+    <string name="title_date">Show a title</string>
+    <string name="show_year_first">Show the year picker first</string>
+    <string name="enable_seconds">Show seconds picker</string>
+    <string name="enable_minutes">Show minutes picker</string>
+    <string name="limit_times">Limit selectable times</string>
+    <string name="limit_dates">Limit selectable dates</string>
+    <string name="disable_dates">Disable specific dates</string>
+    <string name="highlight_dates">Highlight certain dates</string>
 </resources>
